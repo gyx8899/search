@@ -1,5 +1,5 @@
 {
-  "name": "@daybyday/yx-app",
+  "name": "search",
   "version": "0.1.0",
   "description": "A demo template app with NextJS and Material UI.",
   "main": "dist/cjs/index.js",
@@ -14,11 +14,11 @@
     "lint": "eslint src/**/*.js",
     "rollup": "rollup -c",
     "prepack": "npm run lint && npm run test:ci && npm run rollup",
-    "git-push": "cd ../yx-env && git-push.sh yx-app"
+    "git-push": "cd ../yx-env && git-push.sh search"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gyx8899/yx-app.git"
+    "url": "https://github.com/gyx8899/search.git"
   },
   "keywords": [
     "next",

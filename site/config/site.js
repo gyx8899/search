@@ -1,7 +1,7 @@
 import Author from './author';
 
-export const name = 'yx-app';
-export const displayName = 'YX-App';
+export const name = 'Search';
+export const displayName = 'Search';
 const keywords = [
   'react',
   'nextjs',

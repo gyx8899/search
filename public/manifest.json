@@ -1,6 +1,6 @@
 {
-  "short_name": "YX-App",
-  "name": "YX App",
+  "short_name": "Search",
+  "name": "Search",
   "icons": [
     {
       "src": "/images/android-icon-36x36.png",
@@ -25,23 +25,11 @@
       "sizes": "96x96",
       "type": "image/png",
       "density": "2.0"
-    },
-    {
-      "src": "/images/android-icon-144x144.png",
-      "sizes": "144x144",
-      "type": "image/png",
-      "density": "3.0"
-    },
-    {
-      "src": "/images/android-icon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "density": "4.0"
     }
   ],
   "start_url": "/index",
   "background_color": "#ffffff",
   "display": "standalone",
   "scope": "/",
-  "theme_color": "#1890FF"
+  "theme_color": "#2ECC71"
 }
