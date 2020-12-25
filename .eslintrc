@@ -1,0 +1,85 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb",
+    "eslint:recommended"
+  ],
+  "plugins": [
+    "react",
+    "jsx-a11y"
+  ],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "jest": true
+  },
+  "rules": {
+    "sort-imports": 0,
+    "indent": [
+      0,
+      "tab"
+    ],
+    "object-curly-spacing": [
+      "error",
+      "never"
+    ],
+    "no-tabs": [
+      "error",
+      {
+        "allowIndentationTabs": true
+      }
+    ],
+    "no-mixed-spaces-and-tabs": [
+      "error",
+      "smart-tabs"
+    ],
+    "react/jsx-indent": 0,
+    "react/jsx-indent-props": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "react/jsx-closing-bracket-location": 0,
+    "react/jsx-boolean-value": 0,
+    "react/jsx-filename-extension": 0,
+    "react/no-did-mount-set-state": 1,
+    "react/jsx-first-prop-new-line": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "react/jsx-max-props-per-line": 0,
+    "react/require-default-props": 0,
+    "react/jsx-props-no-spreading": 0,
+    "jsx-a11y/no-noninteractive-element-interactions": 0,
+    "import/no-named-as-default-member": 0,
+    "import/prefer-default-export": 0,
+    "import/extensions": 0,
+    "no-empty": 1,
+    "no-console": 1,
+    "react/sort-comp": 1,
+    "react/prefer-stateless-function": 1,
+    "react/prop-types": [
+      2,
+      {
+        "ignore": [
+          "children",
+          "key"
+        ]
+      }
+    ],
+    "react/forbid-prop-types": 0,
+    "react/no-find-dom-node": 0,
+    "react/no-unused-prop-types": 2,
+    "react/no-array-index-key": 2,
+    "global-require": 0,
+    "class-methods-use-this": 0,
+    "linebreak-style": 0,
+    "jsx-a11y/click-events-have-key-events": 0
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"],
+        "alias": {
+          "app": "./app"
+        }
+      }
+    }
+  }
+}

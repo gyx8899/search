@@ -1,0 +1,8 @@
+**/__test__/*.jsx
+**/__test__/*.js
+tests
+**/**/*.svg
+node_modules
+**/.next/**
+**/_next/**
+**/dist/**
