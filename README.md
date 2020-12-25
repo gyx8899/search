@@ -1,6 +1,9 @@
 # Search
 搜索聚合：集合各大搜索引擎，及重要技术论坛、社区等搜索接口，方便快速搜索结果。
 
+## Site icon
+[search-website](https://icons8.com/icons/set/search-website)
+
 ## Todo list
 
 - [ ] 百度搜索
